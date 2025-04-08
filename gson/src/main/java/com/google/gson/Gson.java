@@ -252,6 +252,7 @@ public final class Gson {
    */
   public Gson() {
     this(
+      ////
        );
   }
 
