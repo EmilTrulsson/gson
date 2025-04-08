@@ -273,7 +273,6 @@ public final class Gson {
         DEFAULT_OBJECT_TO_NUMBER_STRATEGY,
         DEFAULT_NUMBER_TO_NUMBER_STRATEGY,
         Collections.emptyList());
-       );
   }
 
   Gson(
