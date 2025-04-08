@@ -252,27 +252,7 @@ public final class Gson {
    */
   public Gson() {
     this(
-        Excluder.DEFAULT,
-        DEFAULT_FIELD_NAMING_STRATEGY,
-        Collections.emptyMap(),
-        DEFAULT_SERIALIZE_NULLS,
-        DEFAULT_COMPLEX_MAP_KEYS,
-        DEFAULT_JSON_NON_EXECUTABLE,
-        DEFAULT_ESCAPE_HTML,
-        DEFAULT_FORMATTING_STYLE,
-        DEFAULT_STRICTNESS,
-        DEFAULT_SPECIALIZE_FLOAT_VALUES,
-        DEFAULT_USE_JDK_UNSAFE,
-        LongSerializationPolicy.DEFAULT,
-        DEFAULT_DATE_PATTERN,
-        DateFormat.DEFAULT,
-        DateFormat.DEFAULT,
-        Collections.emptyList(),
-        Collections.emptyList(),
-        Collections.emptyList(),
-        DEFAULT_OBJECT_TO_NUMBER_STRATEGY,
-        DEFAULT_NUMBER_TO_NUMBER_STRATEGY,
-        Collections.emptyList());
+       );
   }
 
   Gson(
