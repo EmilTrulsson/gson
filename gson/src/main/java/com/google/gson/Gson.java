@@ -252,7 +252,7 @@ public final class Gson {
    */
   public Gson() {
     this(
-      Excluder.DEFAULT,
+        Excluder.DEFAULT,
         DEFAULT_FIELD_NAMING_STRATEGY,
         Collections.emptyMap(),
         DEFAULT_SERIALIZE_NULLS,
